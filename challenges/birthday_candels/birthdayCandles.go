@@ -38,3 +38,5 @@ func birthdayCakeCandles(candles []int) int {
 
 	return amount
 }
+
+// Time complexity:

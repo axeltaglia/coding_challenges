@@ -4,29 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55c782e3-5ed7-43e8-a79b-f02287f53298" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Results - TestCases_in_codechallenges_challenges_findParent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/addTwoNumbers/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/addTwoNumbers/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/findParent/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/findParent/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/io/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/two_sum/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codechallenges.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="55c782e3-5ed7-43e8-a79b-f02287f53298" name="Changes" comment="birthdayCandles">
+      <change afterPath="$PROJECT_DIR$/challenges/contains_duplicated/containsDuplicated.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/contains_duplicated_2/containsDuplicated2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/contains_duplicated_2/containsDuplicated2_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/missing_number/missingNumber_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/missing_number/missing_number.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/birthday_candels/birthdayCandles.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/birthday_candels/birthdayCandles.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="ExportTestResults" outputFolder="$USER_HOME$/varios" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -46,38 +38,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/axeltagliapietra/go_projects/codechallenges/challenges&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/axeltagliapietra/go_projects/codechallenges/challenges/missing_number",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/challenges/missing_number" />
       <recent name="$PROJECT_DIR$/challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build codechallenges/challenges/findParent" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.missingNumber_test.go">
+    <configuration name="go build containsDuplcated.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="codechallenges" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="codechallenges/challenges/findParent" />
+      <kind value="FILE" />
+      <package value="codechallenges" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/challenges/findParent/main.go" />
+      <filePath value="$PROJECT_DIR$/challenges/contains_duplicated/containsDuplcated.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build containsDuplicated2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="codechallenges" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="codechallenges" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/challenges/contains_duplicated_2/containsDuplicated2.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -89,23 +91,35 @@
       <filePath value="$PROJECT_DIR$/challenges/two_sum/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCases in codechallenges/challenges/findParent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="containsDuplicated2_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="codechallenges" />
-      <working_directory value="$PROJECT_DIR$/challenges/findParent" />
+      <working_directory value="$PROJECT_DIR$/challenges/contains_duplicated_2" />
       <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="codechallenges/challenges/findParent" />
+      <kind value="FILE" />
+      <package value="codechallenges" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/challenges/contains_duplicated_2/containsDuplicated2_test.go" />
       <framework value="gotest" />
-      <pattern value="^\QTestCases\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="missingNumber_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codechallenges" />
+      <working_directory value="$PROJECT_DIR$/challenges/missing_number" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="codechallenges" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/challenges/missing_number/missingNumber_test.go" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.missingNumber_test.go" />
+        <item itemvalue="Go Test.containsDuplicated2_test.go" />
+        <item itemvalue="Go Build.go build containsDuplicated2.go" />
+        <item itemvalue="Go Build.go build containsDuplcated.go" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build codechallenges/challenges/findParent" />
-        <item itemvalue="Go Test.TestCases in codechallenges/challenges/findParent" />
       </list>
     </recent_temporary>
   </component>
@@ -122,12 +136,36 @@
       <workItem from="1713463952557" duration="1416000" />
       <workItem from="1721262993850" duration="1037000" />
     </task>
+    <task id="LOCAL-00001" summary="birthdayCandles">
+      <option name="closed" value="true" />
+      <created>1721413279126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721413279126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="birthdayCandles" />
+    <option name="LAST_COMMIT_MESSAGE" value="birthdayCandles" />
+  </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/challenges/contains_duplicated_2/containsDuplicated2.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
