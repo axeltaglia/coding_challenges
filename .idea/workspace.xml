@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55c782e3-5ed7-43e8-a79b-f02287f53298" name="Changes" comment="single number">
-      <change afterPath="$PROJECT_DIR$/challenges/find_the_difference/findTheDifference.go" afterDir="false" />
+    <list default="true" id="55c782e3-5ed7-43e8-a79b-f02287f53298" name="Changes" comment="tests for twoSum">
+      <change afterPath="$PROJECT_DIR$/challenges/special_array/specialArray.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/addTwoNumbers/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/add_two_numbers/addTwoNumbers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/addTwoNumbers/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/add_two_numbers/addTwoNumbers_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/findParent/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/find_parent/findParent.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/findParent/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/find_parent/findParent_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/find_the_difference/findTheDifference.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/find_the_difference/findTheDifference.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/single_number/singleNumber.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/single_number/singleNumber.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/two_sum/twoSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/two_sum/twoSum.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721672147579</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tests for twoSum">
+      <option name="closed" value="true" />
+      <created>1722045968019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722045968019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +167,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="birthdayCandles" />
     <MESSAGE value="single number" />
-    <option name="LAST_COMMIT_MESSAGE" value="single number" />
+    <MESSAGE value="tests for twoSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests for twoSum" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
