@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55c782e3-5ed7-43e8-a79b-f02287f53298" name="Changes" comment="tests for twoSum">
-      <change afterPath="$PROJECT_DIR$/challenges/special_array/specialArray.go" afterDir="false" />
+    <list default="true" id="55c782e3-5ed7-43e8-a79b-f02287f53298" name="Changes" comment="special array">
+      <change afterPath="$PROJECT_DIR$/challenges/isMonotonic/isMonotic_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/isMonotonic/isMonotonic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/special_array_2/specialArray2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/special_array_2/specialArray2_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/find_the_difference/findTheDifference.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/find_the_difference/findTheDifference.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/single_number/singleNumber.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/single_number/singleNumber.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/two_sum/twoSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/two_sum/twoSum.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,25 +61,7 @@
       <recent name="$PROJECT_DIR$/challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build findTheDifference.go">
-    <configuration name="go build containsDuplcated.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="codechallenges" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="codechallenges" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/challenges/contains_duplicated/containsDuplcated.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build containsDuplicated2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="codechallenges" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="codechallenges" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/challenges/contains_duplicated_2/containsDuplicated2.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.specialArray2_test.go">
     <configuration name="go build findTheDifference.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="codechallenges" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,15 +71,13 @@
       <filePath value="$PROJECT_DIR$/challenges/find_the_difference/findTheDifference.go" />
       <method v="2" />
     </configuration>
-    <configuration name="containsDuplicated2_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build specialArray2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="codechallenges" />
-      <working_directory value="$PROJECT_DIR$/challenges/contains_duplicated_2" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="codechallenges" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/challenges/contains_duplicated_2/containsDuplicated2_test.go" />
-      <framework value="gotest" />
+      <filePath value="$PROJECT_DIR$/challenges/special_array_2/specialArray2.go" />
       <method v="2" />
     </configuration>
     <configuration name="missingNumber_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -111,13 +91,35 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="specialArray2_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codechallenges" />
+      <working_directory value="$PROJECT_DIR$/challenges/special_array_2" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="codechallenges" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/challenges/special_array_2/specialArray2_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="specialArray_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codechallenges" />
+      <working_directory value="$PROJECT_DIR$/challenges/special_array" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="codechallenges" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/challenges/special_array/specialArray_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.specialArray2_test.go" />
+        <item itemvalue="Go Build.go build specialArray2.go" />
+        <item itemvalue="Go Test.specialArray_test.go" />
         <item itemvalue="Go Build.go build findTheDifference.go" />
         <item itemvalue="Go Test.missingNumber_test.go" />
-        <item itemvalue="Go Test.containsDuplicated2_test.go" />
-        <item itemvalue="Go Build.go build containsDuplicated2.go" />
-        <item itemvalue="Go Build.go build containsDuplcated.go" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +135,9 @@
       <workItem from="1713396431400" duration="11456000" />
       <workItem from="1713463952557" duration="1416000" />
       <workItem from="1721262993850" duration="1037000" />
+      <workItem from="1726154235785" duration="1225000" />
+      <workItem from="1726157519939" duration="3470000" />
+      <workItem from="1728297430620" duration="2714000" />
     </task>
     <task id="LOCAL-00001" summary="birthdayCandles">
       <option name="closed" value="true" />
@@ -158,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722045968019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="special array">
+      <option name="closed" value="true" />
+      <created>1722524028304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722524028304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +181,8 @@
     <MESSAGE value="birthdayCandles" />
     <MESSAGE value="single number" />
     <MESSAGE value="tests for twoSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests for twoSum" />
+    <MESSAGE value="special array" />
+    <option name="LAST_COMMIT_MESSAGE" value="special array" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -178,8 +192,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/challenges/contains_duplicated_2/containsDuplicated2.go</url>
-          <line>7</line>
+          <line>33</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/challenges/special_array_2/specialArray2_test.go</url>
+          <line>61</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/challenges/special_array_2/specialArray2_test.go</url>
+          <line>62</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/challenges/special_array_2/specialArray2_test.go</url>
+          <line>63</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
