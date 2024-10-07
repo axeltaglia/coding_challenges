@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55c782e3-5ed7-43e8-a79b-f02287f53298" name="Changes" comment="special array">
-      <change afterPath="$PROJECT_DIR$/challenges/isMonotonic/isMonotic_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/isMonotonic/isMonotonic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/special_array_2/specialArray2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/special_array_2/specialArray2_test.go" afterDir="false" />
+    <list default="true" id="55c782e3-5ed7-43e8-a79b-f02287f53298" name="Changes" comment="special array2 + isMonotonic">
+      <change afterPath="$PROJECT_DIR$/challenges/count_hills_and_valleys/countHillsAndValleys.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/count_hills_and_valleys/countHillsAndValleys_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +59,14 @@
       <recent name="$PROJECT_DIR$/challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.specialArray2_test.go">
-    <configuration name="go build findTheDifference.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.countHillsAndValleys_test.go">
+    <configuration name="go build countHillsAndValleys.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="codechallenges" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="codechallenges" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/challenges/find_the_difference/findTheDifference.go" />
+      <filePath value="$PROJECT_DIR$/challenges/count_hills_and_valleys/countHillsAndValleys.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build specialArray2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -80,14 +78,26 @@
       <filePath value="$PROJECT_DIR$/challenges/special_array_2/specialArray2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="missingNumber_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_isMonotonic in codechallenges/challenges/isMonotonic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="codechallenges" />
-      <working_directory value="$PROJECT_DIR$/challenges/missing_number" />
+      <working_directory value="$PROJECT_DIR$/challenges/isMonotonic" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="codechallenges/challenges/isMonotonic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_isMonotonic\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="countHillsAndValleys_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codechallenges" />
+      <working_directory value="$PROJECT_DIR$/challenges/count_hills_and_valleys" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="codechallenges" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/challenges/missing_number/missingNumber_test.go" />
+      <filePath value="$PROJECT_DIR$/challenges/count_hills_and_valleys/countHillsAndValleys_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
@@ -102,24 +112,13 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="specialArray_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="codechallenges" />
-      <working_directory value="$PROJECT_DIR$/challenges/special_array" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="codechallenges" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/challenges/special_array/specialArray_test.go" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.countHillsAndValleys_test.go" />
+        <item itemvalue="Go Build.go build countHillsAndValleys.go" />
+        <item itemvalue="Go Test.Test_isMonotonic in codechallenges/challenges/isMonotonic" />
         <item itemvalue="Go Test.specialArray2_test.go" />
         <item itemvalue="Go Build.go build specialArray2.go" />
-        <item itemvalue="Go Test.specialArray_test.go" />
-        <item itemvalue="Go Build.go build findTheDifference.go" />
-        <item itemvalue="Go Test.missingNumber_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +136,7 @@
       <workItem from="1721262993850" duration="1037000" />
       <workItem from="1726154235785" duration="1225000" />
       <workItem from="1726157519939" duration="3470000" />
-      <workItem from="1728297430620" duration="2714000" />
+      <workItem from="1728297430620" duration="4465000" />
     </task>
     <task id="LOCAL-00001" summary="birthdayCandles">
       <option name="closed" value="true" />
@@ -171,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722524028304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="special array2 + isMonotonic">
+      <option name="closed" value="true" />
+      <created>1728309095657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728309095657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +189,8 @@
     <MESSAGE value="single number" />
     <MESSAGE value="tests for twoSum" />
     <MESSAGE value="special array" />
-    <option name="LAST_COMMIT_MESSAGE" value="special array" />
+    <MESSAGE value="special array2 + isMonotonic" />
+    <option name="LAST_COMMIT_MESSAGE" value="special array2 + isMonotonic" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
