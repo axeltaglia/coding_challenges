@@ -66,7 +66,7 @@ func sandwichRestaurant(input [][]int) float64 {
 	timeWillBeAvailable := 0
 	extraWaitingTime := 0
 
-	for i, cusInfo := range input {
+	for _, cusInfo := range input {
 		arrivalTime := cusInfo[0]
 		sandwichTime := cusInfo[1]
 
@@ -74,11 +74,9 @@ func sandwichRestaurant(input [][]int) float64 {
 			extraWaitingTime = timeWillBeAvailable - arrivalTime
 			timeWillBeAvailable = arrivalTime + extraWaitingTime + sandwichTime
 			acumWaitings += extraWaitingTime + sandwichTime
-			fmt.Printf("acum: customer %d: %d\n", i, extraWaitingTime+sandwichTime)
 		} else {
 			timeWillBeAvailable = sandwichTime + arrivalTime
 			acumWaitings += sandwichTime
-			fmt.Printf("acum: customer %d: %d\n", i, sandwichTime)
 		}
 
 	}
